@@ -30,7 +30,7 @@ function compare(arguments, computerChoice, recievedMessage) {
             recievedMessage.channel.send(`${recievedMessage.author} has earned a Victory Royale!`)
             return
         } else {
-            recievedMessage.channel.send(`${this.mention.user} eliminated you!`)
+            recievedMessage.channel.send(`kot bot eliminated you!`)
         }
     }
     if (arguments == 'paper') {
@@ -38,7 +38,7 @@ function compare(arguments, computerChoice, recievedMessage) {
             recievedMessage.channel.send(`${recievedMessage.author} has earned a Victory Royale!`)
             return
         } else {
-            recievedMessage.channel.send(`${this.mention.user} eliminated you!`)
+            recievedMessage.channel.send(`kot bot eliminated you!`)
         }
     }
     if (arguments == 'scissors') {
@@ -46,7 +46,7 @@ function compare(arguments, computerChoice, recievedMessage) {
             recievedMessage.channel.send(`${recievedMessage.author} has earned a Victory Royale!`)
             return
         } else {
-            recievedMessage.channel.send(`${this.mention.user} eliminated you!`)
+            recievedMessage.channel.send(`kot bot eliminated you!`)
         }
     }
 }
