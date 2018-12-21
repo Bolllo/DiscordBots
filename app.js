@@ -9,7 +9,7 @@ const client = new Discord.Client()
 client.on('ready', () => {
     console.log(`Connected as ${client.user.tag}`)
 
-    client.user.setActivity("Big ol' Anime Tiddies", { type: "WATCHING" })
+    client.user.setActivity("soft loli breathing", { type: "LISTENING" })
     client.user.setStatus("dnd")
 
 })
